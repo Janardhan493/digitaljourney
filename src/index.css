@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  background:#050816;
+  color:white;
+  font-family:"Inter",sans-serif;
+  overflow-x:hidden;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+h1,h2,h3,h4{
+  font-family:"Sora",sans-serif;
+}
+
+::selection{
+  background:#2563EB;
+  color:white;
+}
+
+html,
+body {
+  background: #050816;
+  scroll-behavior: auto;
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
